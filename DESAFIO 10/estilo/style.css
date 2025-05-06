@@ -151,6 +151,7 @@ main img.pequena {
     max-width: 350px;
     display: block;
     margin: auto;
+    background-position: left center;
 }
 
 div.video {
