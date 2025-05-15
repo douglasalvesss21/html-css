@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -31,8 +32,16 @@
             color: white;
         }
 
+        thead > tr > th {
+            position: sticky;
+        }
+
+        tbody > tr:nth-child(2n) { 
+            background-color: lightgray;
+        }
+
         td.numero {
-            text-align: right;
+            text-align: center;
         }
     </style>
 </head>
